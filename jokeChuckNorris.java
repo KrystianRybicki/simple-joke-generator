@@ -17,7 +17,7 @@ public class jokeChuckNorris {
             if( answer.equalsIgnoreCase("quit"))break;
 
 
-            if (answer.equals("yes")) {
+            if (answer.equalsIgnoreCase("yes")) {
 
                 try {
 
@@ -44,7 +44,7 @@ public class jokeChuckNorris {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            } else if (answer.equals("no")) {
+            } else if (answer.equalsIgnoreCase("no")) {
                 System.out.println("Maybe another time");
             } else {
                 System.out.println("write yes or no");
