@@ -14,6 +14,7 @@ public class jokeChuckNorris {
         for( ; ; ){
         System.out.println("Do you want to hear a joke?");
                 String answer = in.nextLine();
+                answer = answer.trim();
             if( answer.equalsIgnoreCase("quit"))break;
 
 
